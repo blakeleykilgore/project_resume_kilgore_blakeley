@@ -284,6 +284,10 @@ h6 {
     padding: 10%;
 }
 
+#interests img {
+    width: 100%;
+}
+
 /* --- Contact --- */
 #contact div {
     padding: 10%;
