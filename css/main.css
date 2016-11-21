@@ -398,4 +398,10 @@ footer ul li {
     #contact {
         padding-top: 3%;
     }
+    article {
+        padding: 0;
+        width: calc(69% / 3);
+        display: inline-block;
+        vertical-align: top;
+    }
 }
