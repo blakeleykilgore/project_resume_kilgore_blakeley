@@ -322,4 +322,11 @@ footer ul li {
     #page-header p {
         font-size: 1em;
     }
+    nav ul li {
+        display: inline-block;
+        width: calc(100% / 3);
+    }
+    nav {
+        padding-bottom: 5%;
+    }
 }
