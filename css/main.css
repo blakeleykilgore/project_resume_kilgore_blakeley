@@ -68,3 +68,26 @@ header {
 #page-header p {
     font-size: 0.5em;
 }
+
+/* ---- Nav --- */
+nav ul,
+footer ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li,
+footer ul li {
+    padding: 3.5%;
+}
+
+/* --- Footer --- */
+footer ul {
+    margin: 20% 0;
+    color: #3b5b82;
+}
+
+footer ul li {
+    padding: 1%;
+}
