@@ -329,4 +329,28 @@ footer ul li {
     nav {
         padding-bottom: 5%;
     }
+    article {
+        margin-top: 6%;
+        padding-bottom: 5%;
+    }
+    section {
+        padding-bottom: 5%;
+    }
+    h4,
+    #education h4 {
+        font-size: 1.4em;
+    }
+    h5 {
+        font-size: 1.1em;
+    }
+    #education h5 {
+        font-size: 0.8em;
+    }
+    #education h6 {
+        font-size: 1.2em;
+        padding-top: 1.5%;
+    }
+    article p {
+        font-size: 1.1em;
+    }
 }
