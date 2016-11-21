@@ -404,4 +404,16 @@ footer ul li {
         display: inline-block;
         vertical-align: top;
     }
+    #skills {
+        padding-bottom: 10%;
+    }
+    #skills article:first-of-type {
+        padding-left: 15%;
+    }
+    #skills h4 {
+        font-size: 2em;
+    }
+    #skills ul li {
+        font-size: 1.5em;
+    }
 }
