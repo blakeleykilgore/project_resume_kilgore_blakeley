@@ -424,4 +424,11 @@ footer ul li {
         font-size: 1.5em;
         margin: 0 3% 0 5%;
     }
+    #interests div {
+        width: calc(87% / 2);
+        margin: 5% 3%;
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1.5em;
+    }
 }
