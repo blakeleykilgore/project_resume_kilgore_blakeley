@@ -37,6 +37,11 @@ h6 {
     font-size: 1em;
 }
 
+ul li a {
+    text-decoration: none;
+    color: #3f4850;
+}
+
 p {
     font-size: 0.9em;
     font-family: 'Raleway', sans-serif;
