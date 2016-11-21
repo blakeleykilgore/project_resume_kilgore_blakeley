@@ -354,3 +354,18 @@ footer ul li {
         font-size: 1.1em;
     }
 }
+@media (min-width: 700px) {
+    #skills article {
+        width: calc(60% / 2);
+        display: inline-block;
+        vertical-align: top;
+    }
+    #interests div {
+        width: calc(95% / 2);
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #contact div {
+        padding: 5%;
+    }
+}
