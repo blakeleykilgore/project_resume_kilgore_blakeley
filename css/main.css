@@ -378,4 +378,12 @@ footer ul li {
     #page-header p {
         font-size: 2em;
     }
+    nav ul li {
+        display: inline-block;
+        width: calc(90% / 6);
+        padding: 5% 0;
+    }
+    nav {
+        padding: 0;
+    }
 }
