@@ -135,6 +135,16 @@ h6 {
     padding-top: 2%;
 }
 
+/* --- Community Involvement --- */
+#community-involvement ul {
+    font-size: 1em;
+    padding: 5% 5% 10% 10%;
+}
+
+#community-involvement ul li {
+    padding-top: 4%;
+}
+
 /* --- Footer --- */
 footer ul {
     margin: 20% 0;
