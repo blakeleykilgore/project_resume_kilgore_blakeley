@@ -369,3 +369,13 @@ footer ul li {
         padding: 5%;
     }
 }
+
+/* --- Media Queries: Desktop --- */
+@media (min-width: 900px) {
+    h1 {
+        font-size: 6em;
+    }
+    #page-header p {
+        font-size: 2em;
+    }
+}
