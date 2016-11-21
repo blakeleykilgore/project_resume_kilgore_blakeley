@@ -393,9 +393,9 @@ footer ul li {
         margin-top: 5%;
         padding-top: 2.5%;
     }
-	.date {
-		font-size: 1em;
-	}
+    .date {
+        font-size: 1em;
+    }
     #education,
     #community-involvement,
     #contact {
@@ -406,7 +406,7 @@ footer ul li {
         width: calc(69% / 3);
         display: inline-block;
         vertical-align: top;
-		margin-bottom: 5%;
+        margin-bottom: 5%;
     }
     #skills {
         padding-bottom: 10%;
@@ -419,5 +419,9 @@ footer ul li {
     }
     #skills ul li {
         font-size: 1.5em;
+    }
+    #community-involvement ul li {
+        font-size: 1.5em;
+        margin: 0 3% 0 5%;
     }
 }
