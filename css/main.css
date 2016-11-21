@@ -150,6 +150,22 @@ h6 {
     padding: 10%;
 }
 
+/* --- Contact --- */
+#contact div {
+    padding: 10%;
+}
+
+#contact p:first-of-type {
+    font-size: 1.5em;
+    color: #4470a1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact p {
+    padding-top: 2%;
+    text-align: center;
+}
+
 /* --- Footer --- */
 footer ul {
     margin: 20% 0;
