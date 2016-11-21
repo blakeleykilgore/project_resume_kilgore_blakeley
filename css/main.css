@@ -313,3 +313,13 @@ footer ul {
 footer ul li {
     padding: 1%;
 }
+
+/* --- Media Queries: Tablet --- */
+@media (min-width: 550px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    #page-header p {
+        font-size: 1em;
+    }
+}
