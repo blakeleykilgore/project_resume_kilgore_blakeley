@@ -145,6 +145,11 @@ h6 {
     padding-top: 4%;
 }
 
+/* --- Interests --- */
+#interests p {
+    padding: 10%;
+}
+
 /* --- Footer --- */
 footer ul {
     margin: 20% 0;
