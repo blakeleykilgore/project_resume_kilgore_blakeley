@@ -431,4 +431,13 @@ footer ul li {
         vertical-align: middle;
         font-size: 1.5em;
     }
+	#contact {
+		padding-bottom: 10%; 
+	}
+	#contact p {
+		font-size: 2em;
+	}
+	#contact p:first-of-type {
+		font-size: 3em;
+	}
 }
