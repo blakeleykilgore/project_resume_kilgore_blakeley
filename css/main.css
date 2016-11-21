@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+    color: #3f4850;
+}
+
+.hide {
+    display: none;
+}
+
+h1,
+h2 {
+    color: white;
+    font-size: 3vw;
+}
+
+h3 {
+    color: #263e60;
+    font-size: 1.5rem;
+}
+
+h4 {
+    color: #3b5b82;
+    font-size: 1.2em;
+}
+
+h5 {
+    color: #4470a1;
+    font-size: 0.93em;
+}
+
+h6 {
+    color: #6190be;
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
