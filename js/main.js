@@ -19,4 +19,5 @@ $(document).ready(function () {
             scrollTop: target
         }, 1100);
     });
+    $('.tooltip').tooltipster();
 });
