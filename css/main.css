@@ -74,6 +74,14 @@ ul {
     background-color: rgba(232, 221, 219, 0.8);
 }
 
+#colorstrip1,
+#colorstrip2 {
+    overflow: hidden;
+    position: relative;
+    height: 20px;
+    width: 100%;
+}
+
 /* ---- Header --- */
 header {
     background-image: url(../img/misty-hills.jpg);
