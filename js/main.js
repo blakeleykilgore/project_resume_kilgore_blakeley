@@ -19,5 +19,11 @@ $(document).ready(function () {
             scrollTop: target
         }, 1100);
     });
-    $('.tooltip').tooltipster();
+    $('.tooltip').tooltipster({
+        animation: 'grow',
+        animationDuration: 550,
+        delay: 250,
+        theme: 'tooltipster-shadow',
+        plugins: ['follower'],
+    });
 });
