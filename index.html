@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Open+Sans|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
+    <link rel="stylesheet" href="css/tooltipster.bundle.css">
+    <link rel="stylesheet" type="text/css" href="css/tooltipster-follower.min.css" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -15,26 +17,23 @@
 			<h1>Blakeley Kilgore</h1>
 			<p>Resumé November 2016</p>
 		</div>
-        <div class="sky">
-    		<div class="clouds_one"></div>
-    		<div class="clouds_two"></div>
-    		<div class="clouds_three"></div>
-	    </div>
 	</header>
-	<nav>
+	<nav class="section">
 		<h2 class="hide">Navigation</h2>
 		<ul>
-			<li>Work Experience</li>
-			<li>Education</li>
-			<li>Skills</li>
-			<li>Community Involvement</li>
-			<li>Interests</li>
-			<li>Contact</li>
+			<li><a href="#experience">Work Experience</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#community-involvement">Community Involvement</a></li>
+			<li><a href="#interests">Interests</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
+    <div id="colorstrip1"></div>
+    <button class="button">Scroll Down</button>
 	<main>
 		<h2 class="hide">My Resume</h2>
-		<section>
+		<section id="experience">
 			<h3>Work Experience</h3>
 			<article>
 				<h4>Social Media Coordinator</h4>
@@ -55,7 +54,7 @@
                 <p>Responsibilities included: posting to and monitoring 4 social media accounts; graphic design for both print and social media; and photography of animals in the shelter.</p>
 			</article>
 		</section>
-		<section id="education">
+		<section id="education" class="section">
 			<h3>Education</h3>
 			<article>
 				<h4>Master of Arts in Mass Communication</h4>
@@ -76,7 +75,7 @@
 				<p class="date">Attended Fall 2011</p>
 			</article>
 		</section>
-		<section id="skills">
+		<section id="skills" class="section">
 			<h3>Skills</h3>
 			<article>
 				<h4>Programs and Tools</h4>
@@ -109,7 +108,7 @@
 				</ul>
 			</article>
 		</section>
-		<section id="community-involvement">
+		<section id="community-involvement" class="section">
 			<h3>Community Involvement</h3>
 			<ul>
 				<li>Student Teacher for the Art Changinging Lives Art Therapy Program for those with dementia at the Jules Collins Smith Museum of Fine Arts</li>
@@ -117,7 +116,7 @@
 				<li>Member of the Auburn Alumni Association</li>
 			</ul>
 		</section>
-		<section id="interests">
+		<section id="interests" class="section">
 			<h3>Interests</h3>
             <div>
 			    <img src="img/blakeleyandstephen.jpeg" alt="Blakeley and her Fiancé" title="Blakeley and her Fiancé" >
@@ -126,7 +125,7 @@
                 <p>Blakeley Kilgore was born in Providence, RI, but calls Fairhope, AL “home.” As a life-long equestrian, she first began her college career with the hopes of becoming an equine specialist. However, her love for the arts was never silenced, and she made the switch to the world of visual design. She is chronically dedicated to enhancing her design skills, and will always continue to love and pursue fine arts on the side. When she is not working on all things visual, you will find her outdoors, most likely on a boat, and most likely with her dog.</p>
             </div>
 		</section>
-		<section id="contact">
+		<section id="contact" class="section">
 			<h3>Contact</h3>
             <div>
                 <p>(251) 591 - 2290</p>
@@ -135,13 +134,20 @@
             </div>
 		</section>
 	</main>
-	<footer>
+    <div id="colorstrip2"></div>
+	<footer class="section">
 		<h2 class="hide">Portfolio Links</h2>
 		<ul>
-			<li>www.blakeleykilgoredesign.com</li>
-			<li>www.blakeleykilgoreart.com</li>
+			<li><span class="tooltip" title="Check Out my Design"><a href="http://www.blakeleykilgoredesign.com">www.blakeleykilgoredesign.com</a></span></li>
+			<li><span class="tooltip" title="Check Out my Art"><a href="http://www.blakeleykilgoreart.com">www.blakeleykilgoreart.com</a></span></li>
+            <li><a href="index.html" class="back-button">Back to Top</a></li>
 		</ul>
 	</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    <script src="js/tooltipster.bundle.js"></script>
+    <script src="js/tooltipster-follower.min.js"></script>
+    <script src="js/colorstrip.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
