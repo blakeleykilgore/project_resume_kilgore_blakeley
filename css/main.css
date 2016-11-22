@@ -313,3 +313,59 @@ footer ul {
 footer ul li {
     padding: 1%;
 }
+
+/* --- Media Queries: Tablet --- */
+@media (min-width: 550px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    #page-header p {
+        font-size: 1em;
+    }
+    nav ul li {
+        display: inline-block;
+        width: calc(100% / 3);
+    }
+    nav {
+        padding-bottom: 5%;
+    }
+    article {
+        margin-top: 6%;
+        padding-bottom: 5%;
+    }
+    section {
+        padding-bottom: 5%;
+    }
+    h4,
+    #education h4 {
+        font-size: 1.4em;
+    }
+    h5 {
+        font-size: 1.1em;
+    }
+    #education h5 {
+        font-size: 0.8em;
+    }
+    #education h6 {
+        font-size: 1.2em;
+        padding-top: 1.5%;
+    }
+    article p {
+        font-size: 1.1em;
+    }
+}
+@media (min-width: 700px) {
+    #skills article {
+        width: calc(60% / 2);
+        display: inline-block;
+        vertical-align: top;
+    }
+    #interests div {
+        width: calc(95% / 2);
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #contact div {
+        padding: 5%;
+    }
+}
