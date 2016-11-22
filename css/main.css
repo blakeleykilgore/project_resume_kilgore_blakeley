@@ -58,6 +58,22 @@ ul {
     padding: 0;
 }
 
+.button {
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(52, 85, 126, 0.8);
+    color: white;
+    width: 100%;
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+}
+
+.button:hover {
+    color: #44709f;
+    background-color: rgba(232, 221, 219, 0.8);
+}
+
 /* ---- Header --- */
 header {
     background-image: url(../img/misty-hills.jpg);
@@ -185,6 +201,10 @@ footer ul {
 
 footer ul li {
     padding: 1%;
+}
+
+.back-button {
+    font-size: 0.8em;
 }
 
 /* --- Media Queries: Tablet --- */
